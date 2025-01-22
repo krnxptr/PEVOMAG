@@ -307,11 +307,21 @@ section .background-img .img{
 
     
 }
-
-.tartalom .maps {
-    width: 180%;
-    justify-content: center;
+section .video .apple {
+  width: 1450px; /* Added unit for width */
+  height: 50rem;
+  z-index: -1;
+  position: absolute;
+  animation: fadeIn 0.7s;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+ display: flex;
 }
+
+
+
 .tartalom .maps-szoveg   {
     justify-content: center;
     text-align: center;

@@ -16,7 +16,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: rgb(187, 146, 12);
+    background-color: white;
     color: black;
     border: none;
     border-radius: 5px;
@@ -96,13 +96,13 @@ body {
     width: 100%;
 }
 
-.foods {
+.shop{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.foods ul {
+.shop ul {
     width: 100%;
     list-style: none;
     padding: 0;
@@ -113,12 +113,12 @@ body {
     justify-content: space-around;
 }
 
-.foods ul li {
+.shop ul li {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.mainmenu .foods ul li img{
+.mainmenu .shop ul li img{
     width: 300px;
     height: 300px;
 }
@@ -136,7 +136,7 @@ body {
     text-decoration: none;
     padding: 10px;
     font-family: sans-serif;
-    color: #fff;
+    color: white;
     background: #000;
     border-radius: 100px;
     white-space: nowrap;
@@ -189,13 +189,13 @@ body {
 
   
   
-.foods a{
+.shop a{
     text-decoration: none;
-    color: rgb(187, 146, 12) ;
+    color: black ;
 
 }
-.foods h2{
-    color:rgb(187, 146, 12) ; 
+.shop h2{
+    color:black ; 
     font-size: 30px;
 }
 
@@ -371,12 +371,13 @@ header nav ul li{
 }
 
 header nav ul li a{
-    text-decoration: none;
-    color: rgb(245, 200, 55);
+        text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header nav ul li a:hover{
-    text-decoration: none;
-    color: rgb(129, 102, 11);
+  text-decoration: none;
+    color: blue;
 }
 header figure img {
     height: 100%;
@@ -458,7 +459,7 @@ footer{
 }
 
 .social h5{
-    color: rgb(187, 146, 12);
+     color: blue;
     font-size: 150%;
     letter-spacing: 0.22rem;
     padding-bottom: 15%;
@@ -481,13 +482,13 @@ footer .news input{
     border: none;
     padding: 9%;
     margin: 5%;
-    color:rgb(187, 146, 12);
+    color:blue;
 }
 
 footer .news button{
-    width: 118%;
+   width: 118%;
     border: none;
-    color:rgb(187, 146, 12);
+    color:black;
     color: white;
     padding: 9%;
     margin: 5%;
@@ -496,19 +497,19 @@ footer .news button{
 footer .news button:hover{
     width: 120%;
     border: none;
-    background-color: rgb(187, 146, 12);
+    background-color: red;
     color: white;
     padding: 9%;
     margin: 5%;
 }
 
 footer .news .gombi h1{
-    color: rgb(187, 146, 12);
+     color: black;
     font-size: 1rem;
 }
 
 footer .news .gombi:hover h1{
-    color: white;
+   color: black;
 }
 
 footer .social{
@@ -536,10 +537,10 @@ footer .social ul li a{
 }
 
 footer .social ul li a:hover{
-    color: rgb(187, 146, 12);
+    color: red;
 }
 footer .news h4{
-    color: rgb(187, 146, 12);
+     color: blue;
     font-size: 1.4rem;
 }
 
@@ -558,12 +559,7 @@ footer .news input, footer .news button{
     width: 100%;
 }
 
-.cim {
-    text-align: center;
-    padding: 3rem 0rem;
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-}
+
 
 .szoveg {
     position: absolute;
@@ -852,7 +848,7 @@ section .background-img-menu .img-menu{
         height: 300px;
     }
 
-    .mainmenu .foods ul{
+    .mainmenu .shop ul{
         flex-direction: column;
     }
 }
